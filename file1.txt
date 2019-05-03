@@ -1,0 +1,2 @@
+I am content of file1.txt
+I am content of file1.txt
