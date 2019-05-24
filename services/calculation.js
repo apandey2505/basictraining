@@ -9,7 +9,7 @@ exports.calculationfunction = (data) => {
   var yarr = [];
   let amount_to_paid = 0;
   let totalsales = 0;
-  
+
   //round off fucntion
   function round(value, decimals) {
     return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
@@ -46,7 +46,6 @@ exports.calculationfunction = (data) => {
   
     sales_tax = (final_price-price_of_item);
     sales_tax = round(sales_tax,2);
-    //console.log(` ${quantity_of_item} ${name_of_item} : ${final_price} `);
     var y = ` ${quantity_of_item} ${name_of_item} : ${final_price} `;
     yarr.push(y);
     sales_array.push(sales_tax);
